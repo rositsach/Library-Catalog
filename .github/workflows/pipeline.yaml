@@ -18,6 +18,6 @@ jobs:
         node-version: 20.x
         cache: 'npm'
     - run: npm install
-    - run: npm run start-be
-    - run: npm run start-fe
+    - run: npm run start-be &
+    - run: npm run start-fe &
     - run: npm run test-ui
