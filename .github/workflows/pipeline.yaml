@@ -20,4 +20,5 @@ jobs:
     - run: npm install
     - run: npm run start-be &
     - run: npm run start-fe &
+    - run: npx playwright install
     - run: npm run test-ui
